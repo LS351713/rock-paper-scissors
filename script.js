@@ -38,7 +38,10 @@ const playGame = (playerChoice) => {
     const computerChoice = getComputerChoice(); // Get the computer's choice
     const result = getWinner(playerChoice, computerChoice); // Determine the winner
     console.log(result);
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("result").innerHTML = `
+        <p>You chose: ${playerChoice}</p>
+        <p>Computer chose: ${computerChoice}</p>
+        <h2>${result}</h2>
+    `;
     // TODO: Update the #result element with the player choice, computer choice, and result
 };
-
