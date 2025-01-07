@@ -7,7 +7,6 @@ const getComputerChoice = () => {
     return choice [randomIndex];
 };
 
-
 // Function to determine the winner
 const getWinner = (player, computer) => {
     // TODO: Compare player and computer choices to determine the winner
@@ -33,6 +32,7 @@ const getWinner = (player, computer) => {
 document.getElementById("rock").addEventListener("click", () => playGame("rock"));
 document.getElementById("paper").addEventListener("click", () => playGame("paper"));
 document.getElementById("scissors").addEventListener("click", () => playGame("scissors"));
+
 // Main game logic
 const playGame = (playerChoice) => {
     const computerChoice = getComputerChoice(); // Get the computer's choice
