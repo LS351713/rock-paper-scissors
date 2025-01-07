@@ -1,4 +1,4 @@
-/*General Styles */
+/* General Styles */
 body {
     font-family: "Arial", sans-serif;
     text-align: center;
@@ -36,7 +36,6 @@ h1 {
     background-color: #bbb;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 /* Result Section */
 #result {
     margin-top: 30px;
