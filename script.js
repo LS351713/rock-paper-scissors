@@ -4,7 +4,7 @@ const choices = ["rock", "paper", "scissors"];
 const getComputerChoice = () => {
     // TODO: Generate a random index and return the corresponding choice
     const randomIndex = Math.floor(Math.random()* choices.length);
-    return choice [randomIndex];
+    return choices[randomIndex];
 };
 
 // Function to determine the winner
