@@ -48,11 +48,11 @@ const playGame = (playerChoice) => {
 let computerScore = 0;
 const updateScores = (result) => {
  if (result === "You win!") {
-    playerScore = playerScore + 1;
+    playerScore === player-score + 1;
  //update playerScore
  //update the textContent of tag element id# "player-score"
  } else if (result === "Computer wins!") {
-    computerScore = computerScore + 1;
+    computer-score === computer-score + 1;
  //update computerScore
  //update the textContent of tag element id# "computer-score"
  }
