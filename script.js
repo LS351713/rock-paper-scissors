@@ -48,12 +48,18 @@ const playGame = (playerChoice) => {
 let computerScore = 0;
 const updateScores = (result) => {
  if (result === "You win!") {
+playerScore++
  //update playerScore
  //update the textContent of tag element id# "player-score"
  } else if (result === "Computer wins!") {
+    computerScore++
  //update computerScore
  //update the textContent of tag element id# "computer-score"
  }
 };
 //Call updateScores(result); in the playGame function
+
+document.getElementById("reset").addEventListener("click", () => {
+    //complete your code here
+   });
 };
