@@ -44,15 +44,15 @@ const playGame = (playerChoice) => {
         <h2>${result}</h2>
     `;
     // TODO: Update the #result element with the player choice, computer choice, and result
-    let playerScore = 0;
+let playerScore = 0;
 let computerScore = 0;
 const updateScores = (result) => {
  if (result === "You win!") {
-    playerScore === player-score + 1;
+    getElementById.playerScore + 1;
  //update playerScore
  //update the textContent of tag element id# "player-score"
  } else if (result === "Computer wins!") {
-    computer-score === computer-score + 1;
+    getElementById.computerScore + 1;
  //update computerScore
  //update the textContent of tag element id# "computer-score"
  }
